@@ -17,8 +17,8 @@ section {
 }
 
 #home .hero-unit {
-    background-attachment: fixed;
-    background-position: right 0;
+    /*background-attachment: fixed;*/
+    background-position: right -55px;
     background-repeat: no-repeat;
     position: relative;
     background-color: white;
@@ -28,7 +28,7 @@ section {
 }
 
 #services>.container {
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: right 20px;
     background-repeat: no-repeat;
     position: relative;
