@@ -20,7 +20,7 @@ section>.container {
     background-color: white;
     background-image: url(../img/Flying-Child-873.jpg);
     border: none;
-    height: 185px;
+    /*height: 185px;*/
 }
 
 #services>.container {
@@ -74,12 +74,12 @@ h2 {
     padding: 3px 10px 3px 3px;
 }
 
-#email-update-form {
+#mc_embed_signup {
     position: absolute;
     bottom: 280px;
 }
 
-#email-update-form>fieldset {
+#mc_embed_signup fieldset {
     padding: 10px 15px;
     background-color: rgba(255,255,255,.7);
     border: 1px solid #eee;
