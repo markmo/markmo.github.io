@@ -69,14 +69,14 @@
 })();
 
 $(function () {
-    var height = $(window).height() - 41;
-    var sections = $('section>.container');
-    var curSection = $(sections[0]);
-    sections.css('height', height);
+//    var height = $(window).height() - 41;
+//    var sections = $('section>.container');
+//    var curSection = $(sections[0]);
+//    sections.css('height', height);
 
-    sections.waypoint(function (direction) {
-        curSection = $(this);
-    }, {offset: '80%'});
+//    sections.waypoint(function (direction) {
+//        curSection = $(this);
+//    }, {offset: '80%'});
 
 //    $(window).bind('scrollstop', function () {
 //        $('html, body').stop().animate({scrollTop: curSection.offset().top}, 250);
