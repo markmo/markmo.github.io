@@ -12,6 +12,10 @@ section>.container {
     padding-top: 60px;
 }
 
+section {
+    min-height: 800px;
+}
+
 #home .hero-unit {
     background-attachment: fixed;
     background-position: right 0;
