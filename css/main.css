@@ -66,6 +66,10 @@ h2 {
     font-size: 29.5px;
 }
 
+.home-features h2 {
+    line-height: 29.5px;
+}
+
 .home-features img {
     margin-bottom: 10.5px;
 }
