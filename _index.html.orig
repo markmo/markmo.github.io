@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Metadata Management</title>
+        <meta name="description" content="Metamorphic supports analytic-driven organizations by providing a scalable solution for managing metadata and enabling the agile transformation of data in multi-vendor environments.">
+        <meta name="keywords" content="metadata,agile,analytics,business intelligence,data,information,content,management,asset,quality,firewall,Hadoop,Excel,file">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/spacelab/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <!--<link rel="stylesheet" href="css/bootstrap-responsive.min.css">-->
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#home">Metamorphic</a>
+                    <div class="nav-collapse collapse pull-right">
+                        <ul class="nav">
+                            <li class="active"><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <!--<li><a href="/blogs/index.html">Blog</a></li>-->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Connect <b class="caret"></b></a>
+                                <ul class="dropdown-menu pull-right">
+                                    <li>
+                                        <a href="mailto:markmo@metamorphichq.com" target="_blank">
+                                            <span style="display: inline-block; width: 32px; text-align: center;"><i class="icon-envelope"></i></span>
+                                            markmo@metamorphichq.com
+                                        </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="https://twitter.com/metamorphichq" target="_blank">
+                                            <img src="img/twitter.png" style="width: 32px; height: 32px;">
+                                            @metamorphichq
+                                        </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#">
+                                            <span style="display: inline-block; width: 32px; text-align: center;">T:</span>
+                                            +61 467 552 482
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--
+                        <form class="navbar-form pull-right">
+                            <input class="span2" type="text" placeholder="Email">
+                            <input class="span2" type="password" placeholder="Password">
+                            <button type="submit" class="btn">Sign in</button>
+                        </form>-->
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <section id="home">
+            <div class="container">
+                <!-- Main hero unit for a primary marketing message or call to action -->
+                <div class="hero-unit">
+                    <h1>Trust</h1>
+                    <p class="lead" style="padding-left: 13px;">is a foundation of agility</p>
+                </div>
+
+                <p class="marketing-byline">
+                    Trust is elevated by knowing what information assets you have, where they originated from, and who can verify or explain the data.
+                    Agility also depends on the ability to easily consume, validate, and transform data for use in analytics and business intelligence.
+                </p>
+
+                <p class="marketing-byline">
+                    Our name is derived from <em>meta</em>, about the structure and definition of a thing,
+                    and <em>morphic</em>, of changing from one form into another. Metamorphic is a platform for:
+                </p>
+                <div class="row home-features">
+                    <div class="span3">
+                        <h2>Multistructured Content</h2>
+                        <div style="text-align: center; margin-top: -10.5px;">
+                            <!--<img src="img/text_csv.png">-->
+                            <!--<img src="img/excel.png" style="width: 64px; height: 64px; margin-top: 21px;">-->
+                            <img src="img/silver-database.jpg" style="width: 65px; height: 52px; margin-top: 15px;">
+                            <img src="img/text_csv.png" style="width: 48px; height: 48px;">
+                            <img src="img/excel.png" style="width: 48px; height: 48px; margin-top: 19px;">
+                        </div>
+                        <p>Profile, search and transform data from sources including databases, Excel and files in multiple formats </p>
+                    </div>
+                    <div class="span3">
+                        <h2>Metadata</h2>
+                        <div style="text-align: center;">
+                            <img src="img/metadata.jpg" style="width: 141px; height: 85px;">
+                        </div>
+                        <p>Discover and manage metadata (data about data) including structure, definitions and quality rules using machine learning </p>
+                    </div>
+                    <div class="span3">
+                        <h2>Data Quality</h2>
+                        <div style="text-align: center;">
+                            <img src="img/tick.png" style="margin-bottom: 31.5px;">
+                        </div>
+                        <p>Validate data quality using behaviour-driven specifications and automated tests to create a <strong style="color: black;">data quality firewall</strong> </p>
+                    </div>
+                    <div class="span3">
+                        <h2>At Scale</h2>
+                        <div style="text-align: center;">
+                            <img src="img/scale2.jpg" style="width: 141px; height: 106px; margin-top: -10.5px; margin-bottom: 0;">
+                        </div>
+                        <p>Operate at scale to support big data and streaming events with connectors for Hadoop, Mongo and others</p>
+                    </div>
+                </div>
+            </div> <!-- /container -->
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h1>About</h1>
+                <div class="row">
+                    <div class="span4">
+                        <p style="width: 250px;">
+                            Our goal is to support analytic-driven organizations by providing a scalable solution for
+                            managing metadata and enabling the agile transformation of data in multi-vendor
+                            environments.
+                        </p>
+                    </div>
+                    <div class="media span7" style="margin-top: 0;">
+                        <a class="pull-left" href="#about" style="margin-right: 0;">
+                            <img src="http://www.gravatar.com/avatar/eddc8d4f5adf8a71cb74950ef1277415.png?s=116">
+                        </a>
+                        <div class="media-body" style="height: 86px; padding: 15px 10px; background-color: #999; color: white;">
+                            <div class="media">
+                                <p style="margin-top: 44px;">Mark Moloney<br><span class="muted">Founder</span></p>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordion1">
+                            <div class="accordion-group" style="font-size: 85%; background-color: #eee; border: none; border-radius: 0;">
+                                <div class="accordion-heading" style="background-color: #ccc;">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+                                        <i class="icon-chevron-right icon-white" style="margin-right: 5px;"></i>Bio
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="accordion-body collapse">
+                                    <div class="accordion-inner" style="background-color: #eee;">
+                                        <p>
+                                            I believe that there are tremendous opportunities from instant recall of knowledge
+                                            and machine augmented analysis and learning.
+                                            These opportunities depend on the ability to consume and analyze vast quantities of
+                                            data, which in turn, depends on the ability to discover and manage data about
+                                            data (metadata).
+                                        </p>
+                                        <p>
+                                            <!--My career has been in building teams, systems and environments in which craftsmanship
+                                            and strategic business alignment has been priorities.-->
+                                            The first half of my career was shaped from my experience as a management
+                                            consultant working with large organizations in future visioning, information strategy, and business
+                                            analysis during which time I was fortunate to work in a number of countries and across a
+                                            range of industries.
+                                        </p>
+                                        <p>
+                                            I gravitated towards developing the enabling technologies to see the vision through to implementation.
+                                            Five years ago, my interest began to focus on using the growing volume of information
+                                            that was being collected - often treated as a byproduct of transactional systems. I
+                                            co-founded a company, which provided findability solutions (search based applications)
+                                            and developed a semantic search product to improve the level of information recall from
+                                            enterprise document stores.
+                                        </p>
+                                    </div>
+                                </div>
+                                <p style="padding: 9px 15px;">
+                                    <a href="http://au.linkedin.com/in/markmoloney1" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="http://www.linkedin.com/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Mark Moloney's LinkedIn profile" style="vertical-align:middle" border="0">View Mark Moloney's profile</span></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /container -->
+        </section>
+
+        <section id="products">
+            <div class="container" style="position: relative;">
+                <h1>Products</h1>
+                <div class="hero-unit products" data-stellar-background-ratio="0.2">
+                    <p class="lead">
+                        In development.
+                    </p>
+                </div>
+
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup" class="row">
+                    <form action="http://datascience.us4.list-manage.com/subscribe/post?u=45fdfec6cc76c61d69e5e752f&amp;id=2c055f3094" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <fieldset class="span4">
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Keep me posted</label>
+                                <div class="input-append">
+                                    <input id="mce-EMAIL" name="EMAIL" class="required email" type="text" placeholder="Email *" value="" style="width: 230px;">
+                                    <input type="submit" value="Go" name="subscribe" id="mc-embedded-subscribe" class="button btn">
+                                </div>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <div class="row">
+                                <div class="span4">
+                                    <small>
+                                        <strong>Privacy policy.</strong>
+                                        We will never share, sell, rent or use this address for any purpose except to
+                                        notify you of our new products or major releases. And of course you may unsubscribe at
+                                        any time.
+                                    </small>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div><!--End mc_embed_signup-->
+
+            </div><!-- /container -->
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h1>Services</h1>
+                <div class="hero-unit services">
+                    <p class="lead">
+                        To solve a large problem,<br>
+                        break it up into a set of smaller problems.
+                    </p>
+                </div>
+                <ul>
+                    <li>Implementation and Support Services</li>
+                    <li>Customized Metadata Solutions</li>
+                    <li>Business Case and Proof of Concept Development</li>
+                    <li>System Integration and Testing</li>
+                </ul>
+            </div> <!-- /container -->
+        </section>
+
+        <footer>
+            <div class="container" style="position: relative; height: 100%;">
+                <div class="row">
+                    <div class="span4">
+                        <div>
+                            <a class="brand" href="#home">Metamorphic</a>
+                        </div>
+                        <ul style="margin-top: 20px;">
+                            <li>
+                                <a href="mailto:markmo@metamorphichq.com" target="_blank">
+                                    <span style="display: inline-block; width: 32px; text-align: center;"><i class="icon-envelope icon-white"></i></span>
+                                    markmo@metamorphichq.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/metamorphichq" target="_blank">
+                                    <img src="img/twitter.png" style="width: 32px; height: 32px;">
+                                    @metamorphichq
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span style="display: inline-block; width: 32px; text-align: center;">T:</span>
+                                    +61 467 552 482
+                                </a>
+                            </li>
+                        </ul>
+                        <p style="position: absolute; bottom: 20px; font-size: 85%;">&copy; Data Science Ltd. 2013</p>
+                    </div>
+                    <div class="span3">
+                        <h4>About</h4>
+                        <hr>
+                        <p style="font-size: 85%;">
+                            Our goal is to support analytic-driven organizations by providing a scalable solution for
+                            managing metadata and enabling the agile transformation of data in multi-vendor
+                            environments.
+                        </p>
+                    </div>
+                    <div class="span1"></div>
+                    <div class="span4">
+                        <h4>Navigate</h4>
+                        <hr>
+                        <ul class="nav nav-pills nav-stacked" style="margin-top: 0;">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <!--<li><a href="/blogs/index.html">Blog</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <!--<script src="js/waypoints.js"></script>-->
+        <script src="js/vendor/jquery.stellar.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-40017930-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
