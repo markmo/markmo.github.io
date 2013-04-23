@@ -22,10 +22,10 @@ these are some of the communities in which those languages have loyal adherents.
 
 Another reason is that the functional programming style, which favours immutable objects (an object whose state
 cannot be modified after it is created), is less error prone when developing highly concurrent applications - the
-type of applications required to delivery cloud-based services.
+type of applications required to deliver cloud-based services.
 
 I think another reason is that the functional programming style maps well to writing data applications. The
-map-reduce programming model, that is at the core of Hadoop, is borrowed from a common
+map-reduce programming model that is at the core of Hadoop is borrowed from a common
 functional pattern. A common pattern for data applications is to pull or react to data from one or
 more sources, transform it in a series of stages arranged as a pipeline and then emit the data. I like to think
 of these applications as data refineries that augment and refine data for visualization and reporting
