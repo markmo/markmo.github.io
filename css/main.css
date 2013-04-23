@@ -4,7 +4,11 @@
    Author's custom styles
    ========================================================================== */
 
-html, body, section {
+html, body {
+    height: 100%;
+}
+
+#home, #about, #products, #services, #blog {
     height: 100%;
 }
 
@@ -211,6 +215,7 @@ footer li a {
 #blog .post-row .post .text {
     margin: 18px auto 0;
     width: 83%;
+    min-height: 194px;
 }
 
 #blog .post-row .post .img {
