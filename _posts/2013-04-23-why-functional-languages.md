@@ -72,7 +72,7 @@ def extractCounts() {
   var counts: Source = null
   try {
     counts = Source.fromFile("/data/h1-p/gene.counts")
-    counts.getLines().foreach(_ split "//s+" match {
+    counts.getLines().foreach(_ split "\\s+" match {
       case Array(k, "WORDTAG", tag, word)       => { wordTagCounts((tag, word)) = k.toInt; }
       case Array(k, "1-GRAM", tag)              => { unigramCounts(tag) = k.toInt }
       case Array(k, "2-GRAM", tag1, tag2)       => { bigramCounts((tag1, tag2)) = k.toInt }
