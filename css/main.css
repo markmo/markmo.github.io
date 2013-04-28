@@ -8,7 +8,7 @@ html, body {
     height: 100%;
 }
 
-#home, #about, #products, #services, #blog {
+#home, #about, #products, #services {
     height: 100%;
 }
 
@@ -200,7 +200,7 @@ footer li a {
 
 #blog .post-row {
     margin-left: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     height: 495px;
 }
 
