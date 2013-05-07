@@ -19,7 +19,7 @@ The client-side architecture for a mobile application may look like the followin
 ![Mobile Architecture](/img/mobile_architecture.jpg)
 
 <h4>Pros:</h4>
-* Applications are richer and more fluid than a traditional request-response style of application.
+* Applications are richer and more fluid than a traditional request-response style of web application.
 * Web technologies are better suited to displaying and, importantly, linking mixed content than native components.
 * There is a large community of support and a large number of resources, frameworks and libraries for building web
 applications, and HTML is a flexible medium for achieving custom layouts and branded designs.
@@ -30,7 +30,7 @@ use those skills to build mobile applications. (Although this can be somewhat ov
 <h4>Cons:</h4>
 * Application development is more complex than a traditional request-response style of application. Additional
 considerations on a mobile device include memory management, modularisation, and code size.
-* Developers with skills in modular, full-application JavaScript development are comparatively rare compared to
+* Developers with skills in modular, full-application JavaScript development are in short supply compared to
 general web skills.
 * Even taking into account that most smart phones use later versions Webkit, there is enough variation in screen size,
 browser compatibilty and the side effects of manufacturer-added "features" such as HTC Sense and Samsung TouchWiz
