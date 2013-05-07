@@ -19,6 +19,8 @@ The question then arises, what is the optimum strategy and set of technologies f
 Unfortunately, the
 choice is not clear cut. Over the next few posts, I will outline the pros and cons of each of the major options.
 
+![Mobile Development Options](/img/mobile_options.jpg)
+
 <ul>
   <li>
     <p>
@@ -37,15 +39,21 @@ choice is not clear cut. Over the next few posts, I will outline the pros and co
     </p>
   </li>
   <li>
-    <p>
-      <a href="#">Hybrid Applications</a> - using a combination of web and native development. An example is an application developed
-      using PhoneGap (aka Apache Cordova).
-    </p>
-  </li>
-  <li>
-    <p>
-      <a href="#">Generated Applications and Cross-Platform Runtimes</a> - an application developed in a non-native language and converted to a native executable.
-    </p>
+    <p>Hybrid Architecture</p>
+    <ul>
+      <li>
+        <p>
+          <a href="#">HTML5 Container</a> - a native container for HTML content and JavaScript, which enables
+          both native and web application layers, and provides a bridge to native device capabilities. An example is
+          an application developed using PhoneGap (aka Apache Cordova).
+        </p>
+      </li>
+      <li>
+        <p>
+          <a href="#">Generated Applications and Cross-Platform Runtimes</a> - an application developed in a non-native language and converted to a native executable.
+        </p>
+      </li>
+    </ul>
   </li>
 </ul>
 
