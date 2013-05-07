@@ -21,8 +21,10 @@ choice is not clear cut. Over the next few posts, I will outline the pros and co
 
 <ul>
   <li>
-    Mobile Web Application - an application built using web technologies: HTML, CSS, and JavaScript. There are
-    multiple alternative architectures for a mobile web application:
+    <p>
+      Mobile Web Application - an application built using web technologies: HTML, CSS, and JavaScript. There are
+      multiple alternative architectures for a mobile web application:
+    </p>
     <ul>
       <li><p><a href="/2013/05/07/responsive-design/">Responsive Design</a> as an alternative to separate mobile templates</p></li>
       <li><p><a href="/2013/05/07/single-page-applications/">Single Page Applications</a> (SPA)</p></li>
