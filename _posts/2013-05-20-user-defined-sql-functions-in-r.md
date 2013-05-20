@@ -308,8 +308,8 @@ install.packages("stringr")
 {% endhighlight %}
 
 Next, create the sentiment function in Postgres, making sure to change the location of the word lists to the location
-where you extracted them to. (Bear in mind that this implementation will require code for additional data quality
-checking and clean up before use.)
+where you extracted them to. (Bear in mind that this code will require additional data condition checking and error
+handling logic before use.)
 
 {% highlight r %}
 CREATE OR REPLACE FUNCTION sentiment(varchar) RETURNS varchar AS $$
