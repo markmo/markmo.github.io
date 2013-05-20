@@ -15,7 +15,7 @@ in SQL statements. The Greenplum and PostgreSQL relational databases enable user
 in the R language. R is a widely used programming language and environment for data manipulation and statistical
 analysis. The ability to use R to create user defined functions adds powerful statistical and data mining
 capabilities to a relational database. It also enables the analyst to leverage the flexibility and query optimizations
-built into relational databases and avoid the trial of exporting data and taking care to manage memory and
+built into relational databases and avoid the overhead of exporting data and taking care to manage memory and
 query performance manually.
 
 I'll work through setting up R in PostgreSQL followed by a few examples of using R to extract word counts and perform
@@ -308,7 +308,8 @@ install.packages("stringr")
 {% endhighlight %}
 
 Next, create the sentiment function in Postgres, making sure to change the location of the word lists to the location
-where you extracted them to. (This implementation requires better error handling before using in earnest.)
+where you extracted them to. (Bear in mind that this implementation will require code for additional data quality
+checking and clean up before use.)
 
 {% highlight r %}
 CREATE OR REPLACE FUNCTION sentiment(varchar) RETURNS varchar AS $$
@@ -368,4 +369,4 @@ group by sentiment(body);
 
 ![Word Count Query Results](/img/sentiment_groupby_example.gif)
 
-I hope these examples have sparked some interesting ideas to leverage the power of using SQL and R together.
+I hope these examples have sparked some ideas to leverage the power of using SQL and R together.
