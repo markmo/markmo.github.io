@@ -26,7 +26,7 @@ sentiment analysis on columns of text.
 * [Getting started](#installation)
 * [Creating your first user defined function in R](#first)
 * [Using SQL and R for Text Mining](#wordcount)
-* [Sentiment Analysis using SQL](#sentiment)
+* [Sentiment Analysis](#sentiment)
 
 <h4>Getting Started</h4>
 
@@ -286,7 +286,7 @@ select id, wc(body), body from posts limit 10;
 You should see the word counts next to the body of text in each row.
 <br>
 
-<h4>Sentiment Analysis using SQL</h4>
+<h4>Sentiment Analysis</h4>
 
 In this last example, we'll define a function to assign a sentiment score given a body of text in a column. I have
 adapted an approach proposed by [Jeffrey Breen](http://jeffreybreen.wordpress.com/2011/07/04/twitter-text-mining-r-slides/), used
