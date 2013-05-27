@@ -82,12 +82,12 @@ $(function () {
 //        $('html, body').stop().animate({scrollTop: curSection.offset().top}, 250);
 //    });
 
-    $(function () {
-        $.stellar({
-            horizontalScrolling: false,
-            responsive: true
-        });
-    });
+//    $(function () {
+//        $.stellar({
+//            horizontalScrolling: false,
+//            responsive: true
+//        });
+//    });
 
     $('section')[0].scrollIntoView();
 
