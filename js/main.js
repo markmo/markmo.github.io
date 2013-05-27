@@ -93,16 +93,16 @@ $(function () {
             });
         }
 
-        var setSectionHeight = function () {
+        var setSectionMinHeight = function () {
             var windowHeight = $(window).height();
-            $('section').css('height', windowHeight + 'px');
+            $('section').css('min-height', windowHeight + 'px');
         };
 
         $(window).resize(function () {
-            setSectionHeight();
+            setSectionMinHeight();
         });
 
-        setSectionHeight();
+        setSectionMinHeight();
     });
 
     $('section')[0].scrollIntoView();
