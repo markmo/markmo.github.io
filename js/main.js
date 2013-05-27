@@ -1,3 +1,4 @@
+/*
 (function(){
 
     var special = jQuery.event.special,
@@ -66,7 +67,7 @@
         }
     };
 
-})();
+})();*/
 
 $(function () {
 //    var height = $(window).height() - 41;
@@ -82,12 +83,27 @@ $(function () {
 //        $('html, body').stop().animate({scrollTop: curSection.offset().top}, 250);
 //    });
 
-//    $(function () {
-//        $.stellar({
-//            horizontalScrolling: false,
-//            responsive: true
-//        });
-//    });
+    $(function () {
+        var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/);
+
+        if (!isMobile) {
+            $.stellar({
+                horizontalScrolling: false,
+                responsive: true
+            });
+        }
+
+        var setSectionHeight = function () {
+            var windowHeight = $(window).height();
+            $('section').css('height', windowHeight + 'px');
+        };
+
+        $(window).resize(function () {
+            setSectionHeight();
+        });
+
+        setSectionHeight();
+    });
 
     $('section')[0].scrollIntoView();
 
