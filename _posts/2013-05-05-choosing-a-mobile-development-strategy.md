@@ -34,7 +34,7 @@ choice is not clear cut. Over the next few posts, I will outline the pros and co
   </li>
   <li>
     <p>
-      <a href="#">Native Applications</a> - an application developed using the programming language and Software Development Kit (SDK) that is native
+      <a href="/2013/05/27/native-applications/">Native Applications</a> - an application developed using the programming language and Software Development Kit (SDK) that is native
       to the type of device.
     </p>
   </li>
