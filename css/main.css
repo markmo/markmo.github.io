@@ -6,9 +6,13 @@
 
 /*html, body {
     height: 100%;
+}*/
+
+body {
+    padding-bottom: 0;
 }
 
-#home, #about, #products, #services {
+/*#home, #about, #products, #services {
     height: 100%;
 }*/
 
