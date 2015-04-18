@@ -28,7 +28,7 @@ sentiment analysis on columns of text.
 * [Using SQL and R for Text Mining](#wordcount)
 * [Sentiment Analysis](#sentiment)
 
-<h4>Getting Started</h4>
+<h3>Getting Started</h3>
 
 PostgreSQL, often simply Postgres, is an open source relational database management system. It is released under
 the PostgreSQL License, which is an MIT-style license, and is thus free and open for commercial use. It implements
@@ -143,7 +143,7 @@ sudo make install
 
 The PL/R library should now be installed and available to Postgres.
 
-<h4>Creating your first user defined function in R</h4>
+<h3>Creating your first user defined function in R</h3>
 
 I use [pgAdmin3](http://www.pgadmin.org/visualtour16.php) as a graphical user interface for Postgres. Binary distributions can be obtained from
 [http://www.pgadmin.org/download/](http://www.pgadmin.org/download/).
@@ -220,7 +220,7 @@ You should see the following results:
 </tr>
 </table>
 
-<h4>Using SQL and R for Text Mining</h4>
+<h3>Using SQL and R for Text Mining</h3>
 
 In this example, we'll create a function to do a word count for a column value containing text. The first thing we'll need is a
 column of text. Stack Exchange kindly make their database of questions and answers from sites such as Stack
@@ -286,7 +286,7 @@ select id, wc(body), body from posts limit 10;
 You should see the word counts next to the body of text in each row.
 <br>
 
-<h4>Sentiment Analysis</h4>
+<h3>Sentiment Analysis</h3>
 
 In this last example, we'll define a function to assign a sentiment score given a body of text in a column. I have
 adapted an approach proposed by [Jeffrey Breen](http://jeffreybreen.wordpress.com/2011/07/04/twitter-text-mining-r-slides/), used
